@@ -6,7 +6,8 @@
   with_items:
     - mariadb-server
     - mariadb-devel
-    - mysql-secure_installation
+    - mysql_secure_installation
+    - httpd
     - fping
     - MySQL-python
     - php
