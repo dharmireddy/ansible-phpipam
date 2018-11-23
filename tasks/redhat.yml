@@ -4,6 +4,9 @@
     name: "{{ item }}"
     state: present
   with_items:
+    - mariadb-server
+    - mariadb-devel
+    - mysql-secure_installation
     - fping
     - MySQL-python
     - php
