@@ -5,7 +5,9 @@
     state: present
   with_items:
     - mariadb-server
-    - mariadb-devel
+    - mariadb
+    - php-mbstring
+    - php-gd
    # - mysql_secure_installation
     - httpd
     - fping
